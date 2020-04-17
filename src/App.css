@@ -48,8 +48,16 @@ body{
   float: inline-end;
 }
 #initial{
+  position: relative;
+  height:800px;
+   
+   width: 100%;
+   background: url(moja-msanii-vO9-gal54go-unsplash.jpg) no-repeat top center;
+   background-size: cover !important;
+	-webkit-background-size: cover !important;
+   text-align: center;
+   overflow: hidden;
   
   
-   margin-top: 200px;
   justify-content: center;
 }

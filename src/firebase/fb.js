@@ -1,6 +1,6 @@
-//import {Config}from './config';
-///import firebase from 'firebase/app';
-/*import 'firebase/auth';        
+import {Config}from './Config';
+import firebase from 'firebase/app';
+import 'firebase/auth';        
 
 import 'firebase/firestore';   // for cloud firestore
 
@@ -11,4 +11,4 @@ if (!firebase.apps.length) {
 
     firebase.firestore().settings({ timestampsInSnapshots: true });
 
-    export default firebase */
+    export default firebase 
