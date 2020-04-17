@@ -1,6 +1,6 @@
 body{
-  background-color: rgb(142, 169, 197);
-  background-image: url(everyday-basics-GJY1eAw6tn8-unsplash.jpg)  ;
+ 
+  background: url(everyday-basics-GJY1eAw6tn8-unsplash.jpg) no-repeat top center  ;
   background-size: cover !important;
   -webkit-background-size: cover !important;
  
@@ -47,17 +47,14 @@ body{
 .nav-item{
   float: inline-end;
 }
+@import url('https://fonts.googleapis.com/css?family=Cabin+Sketch&display=swap');
 #initial{
-  position: relative;
-  height:800px;
-   
-   width: 100%;
-   background: url(moja-msanii-vO9-gal54go-unsplash.jpg) no-repeat top center;
-   background-size: cover !important;
-	-webkit-background-size: cover !important;
+  
+  font-family: 'Cabin Sketch', cursive;
    text-align: center;
    overflow: hidden;
-  
-  
+ 
+   font-weight: bolder;
+  margin-top: 200px;
   justify-content: center;
 }
