@@ -11,7 +11,7 @@ const UserList = ({users}) => {
               return (
                   <div className="col-md-4">
             
-          <List user={user.user} key={user.id}  id={user.id}/>
+          <List user={user} key={user.id}  id={user.id}/>
          
          </div>
           )

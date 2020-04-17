@@ -5,9 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url('moja-msanii-vO9-gal54go-unsplash.jpg') no-repeat top center;
-  background-size: cover !important;
- -webkit-background-size: cover !important;
+  
 }
 
 code {

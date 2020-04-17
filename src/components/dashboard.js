@@ -29,7 +29,14 @@ const mapStateToProps = (state) => {
   
   export default compose(
     connect(mapStateToProps),
-    firestoreConnect([
-      { collection: 'passwords' }
-    ])
+    firestoreConnect((props) => {
+      if (!props.auth.uid) return []
+      return [
+          {collection: 'passwords',
+          where: [
+             ['userId', '==', props.auth.uid]
+          ]
+      }
+      ]})
   )(Dashboard)
+  

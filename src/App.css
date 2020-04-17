@@ -1,12 +1,9 @@
 body{
   background-color: rgb(142, 169, 197);
-  background-image: url('moja-msanii-vO9-gal54go-unsplash.jpg') no-repeat top center;
+  background-image: url(everyday-basics-GJY1eAw6tn8-unsplash.jpg)  ;
   background-size: cover !important;
- -webkit-background-size: cover !important;
-
-  -moz-background-size: cover;
+  -webkit-background-size: cover !important;
  
-  -o-background-size: cover;
 
 }
 .App {
@@ -51,6 +48,8 @@ body{
   float: inline-end;
 }
 #initial{
+  
+  
    margin-top: 200px;
   justify-content: center;
 }

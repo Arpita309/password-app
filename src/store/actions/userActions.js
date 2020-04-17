@@ -2,8 +2,9 @@ export const createUser = (user) => {
     return (dispatch, getState, {getFirestore}) => {
       // make async call to database
       const firestore = getFirestore();
+      const userId = getState().firebase['auth']['uid'];
       firestore.collection('passwords').add({
-        user
+        ...user,userId:userId
       }).then(() => {
         dispatch({ type: 'CREATE_User_SUCCESS' });
       }).catch(err => {
